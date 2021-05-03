@@ -147,10 +147,10 @@ button{
   border: none;
 }
 .top-users ol li button{
-background-color: aqua;
 border-radius: 4px;
 font-size: 8px;
-color: rgb(110, 145, 133);
+color: #f46a6a;
+background-color: rgba(244,106,106,.18);
 padding: 2px 5px 2px 5px;
 width: 40px;
 font-weight: bold;
@@ -160,8 +160,8 @@ color: #fff;
 background-color: rgb(0, 167, 36);
 }
 .top-users ol li .btn-success{
-color: #fff;
-background-color: rgb(2, 35, 73);
+  color: #34c38f;
+  background-color: rgba(52,195,143,.18)
 }
 .top-users ol li .btn-Pending{
 color: #fff;
