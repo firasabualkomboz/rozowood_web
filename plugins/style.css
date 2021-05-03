@@ -1,0 +1,25 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.main-sidebar{
+  background-color: #fff;
+}
+.img-logo{
+  width: 80%;
+}
+.brand-link{
+  background-color: #fff;
+}
+.badge{
+  background-color: #cc2727;
+}
+.nav-header{
+  color: #cc2727 !important;
+}
+.nav-icon{
+  color: #333;
+}
+.nav-item
+ p{
+   color: #333;
+ }
