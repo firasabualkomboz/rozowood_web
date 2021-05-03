@@ -23,3 +23,349 @@ body{
  p{
    color: #333;
  }
+h1,h2,h3,h4,h5,h6{
+  color: #333;
+}
+.small-box{
+  background-color: #fff !important;
+}
+.small-box h3{
+font-weight: 300;
+}
+.small-box p{
+color: #333;
+}
+.small-box .icon {
+  color: #cc2727;
+  z-index: 0;
+}
+.small-box i {
+  font-weight: 300;
+}
+.small-box .fas{
+  color: #cc2727;
+}
+.new-sec{
+  margin-top: 20px;
+}
+.box-prog{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+.box-prog .progress-group .Desktops{
+  background-color: #cc2727 !important;
+}
+.box-prog .progress-group .iPhones{
+  background-color: rgb(6, 135, 209) !important;
+}
+.box-prog .progress-group .Android{
+  background-color: rgba(35, 218, 193, 0.644) !important;
+}
+.box-prog .progress-group .Tablets{
+  background-color: rgb(91, 236, 164) !important;
+}
+.box-prog .progress-group .Cables{
+  background-color: rgb(122, 61, 235) !important;
+}
+.ads{
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+.ads button{
+  margin-top: 5px;
+  background-color: #cc2727;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+.ads img {
+position: absolute;
+width: 20%;
+right: 4%;
+bottom: 5%;
+
+}
+
+.top-users{
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.top-users ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.top-users ol li {
+  display: inline-block;
+  margin: 10px;
+  margin-right: 30px;
+}
+.top-users ol li img {
+  border-radius: 50%;
+  float: left;
+  width: 30px;
+}
+button{
+  border: none;
+}
+.top-users ol li button{
+background-color: aqua;
+border-radius: 4px;
+color: rgb(110, 145, 133)
+}
+.top-users .fas{
+  color: #333;
+  font-weight: 300;
+}
+/* time line  */
+
+.box-timeline{
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+  max-height: 398px;
+  overflow: hidden;
+}
+.timeline{
+  max-height: 390px;
+  overflow: auto;  
+}
+.timeline::-webkit-scrollbar {
+  width: 12px;
+}
+
+.timeline::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(233, 233, 233, 0.3); 
+  border-radius: 10px;
+}
+
+.timeline::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(240, 236, 236, 0.5); 
+}
+
+.box-timeline .timeline-item{
+  border: none;
+  box-shadow: 0px !important;
+  outline: none;
+}
+.timeline>div>.timeline-item {
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%), 0 1px 3px rgb(0 0 0 / 0%);
+  border-radius: .25rem;
+  background-color: #fff;
+  color: #495057;
+  margin-left: 60px;
+  margin-right: 15px;
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+}
+.box-timeline .timeline-header{
+  font-size: 12px !important;
+}
+
+.social-box{
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+  /* max-height: 398px; */
+}
+
+.social-box ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.social-box ol li {
+  padding: 0;
+  margin: 0;
+}
+.social-box {
+  text-align: center;
+}
+
+.our-social i {
+  font-size: 28px;
+  color: rgb(12, 35, 240);
+}
+.list-social-links ol {
+padding: 0;
+margin: 0;
+}
+.list-social-links ol li  {
+  display: inline-block;
+}
+.list-social-links ol li .item-social{
+  text-align: center;
+  margin: 10px;
+  margin-right: 25px;
+}
+.list-social-links ol li .item-social i {
+  font-size: 24px;
+  color: rgb(12, 35, 240);
+}
+
+.last-table{
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.last-table .btn-details{
+  background-color: #cc2727;
+  color: #fff;
+  border-radius: 25px ;
+  padding: 8px;
+  font-size: 13px;
+}
+.last-table .paid{
+  background-color: #0293d6;
+  color: #fff;
+  border-radius: 25px;
+  padding: 5px 15px 5px 15px;
+  font-size: 13px;
+}
+.last-table .Chargeback{
+  background-color: #d044dd;
+  color: #fff;
+  border-radius: 25px;
+  padding: 5px 15px 5px 15px;
+  font-size: 13px;
+}
+.last-table .Refund{
+  background-color: #d7e974ef;
+  color: #fff;
+  border-radius: 25px;
+  padding: 5px 15px 5px 15px;
+  font-size: 13px;
+}
+
+.main-footer a {
+color: #cc2727;
+}
+
+/* style drop down  */
+.box-prog .dropdown{
+  text-transform: capitalize;
+}
+.box-prog .dropdown .btn-secondary{
+background-color: #fff;
+color: #333;
+border: none;
+font-size: 14px;
+}
+.box-prog .dropdown .btn-secondary:active{
+  background-color: #fff;
+  color: #333;
+  border: none;
+  }
+  .box-prog .dropdown .dropdown-menu a{
+    color: #333;
+    font-size: 12px;
+  }
+
+  /* social  */
+.title-box{
+font-size: 16px;
+}
+.social-box  .dropdown{
+text-transform: capitalize;
+}
+.social-box  .dropdown .btn-secondary{
+background-color: #fff;
+color: #333;
+border: none;
+font-size: 14px;
+}
+.social-box .dropdown .btn-secondary:active{
+background-color: #fff;
+color: #333;
+border: none;
+}
+.social-box .dropdown .dropdown-menu a{
+color: #333;
+font-size: 12px;
+}
+.social-box .dropdown .dropdown-menu{
+  left: -70px ;
+}
+
+/* top users  */
+
+.top-users  .dropdown{
+text-transform: capitalize;
+}
+.top-users .dropdown .btn-secondary{
+background-color: #fff;
+color: #333;
+border: none;
+font-size: 14px;
+}
+.top-users .dropdown .btn-secondary:active{
+background-color: #fff;
+color: #333;
+border: none;
+}
+.top-users .dropdown .dropdown-menu a{
+color: #333;
+font-size: 12px;
+}
+.top-users .dropdown .dropdown-menu{
+  left: -70px !important;
+}
+
+/* recent */
+.box-timeline .dropdown{
+text-transform: capitalize;
+}
+.box-timeline .dropdown .btn-secondary{
+background-color: #fff;
+color: #333;
+border: none;
+font-size: 14px;
+}
+.box-timeline .dropdown .btn-secondary:active{
+background-color: #fff;
+color: #333;
+border: none;
+}
+.box-timeline .dropdown .dropdown-menu a{
+color: #333;
+font-size: 12px;
+}
+.box-timeline .dropdown .dropdown-menu{
+left: -70px !important;
+z-index: 99;
+overflow: hidden;
+}
+
+  
+/* end sty;e drop dowm  */
