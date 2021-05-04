@@ -1,18 +1,14 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
-nav{
-}
-.main-sidebar{
 
-}
-.os-content{
-
+.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden>.os-scrollbar-vertical {
+  background: #333;
 }
 
-.sidebar{
-  overflow: auto;
-  scrollbar-color:red
+.os-theme-dark>.os-scrollbar, .os-theme-light>.os-scrollbar {
+
+  background-color: #333;
 }
 
 
