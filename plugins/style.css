@@ -1,43 +1,43 @@
 body{
-  font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 .os-host-resize-disabled.os-host-scrollbar-horizontal-hidden>.os-scrollbar-vertical {
-  background: #333;
+background: #333;
 }
 
 .os-theme-dark>.os-scrollbar, .os-theme-light>.os-scrollbar {
-  background-color: #333;
+background-color: #333;
 }
 
 
 .main-sidebar{
-  background-color: #fff;
+background-color: #fff;
 }
 .img-logo{
-  width: 80%;
+width: 80%;
 }
 .brand-link{
-  background-color: #fff;
+background-color: #fff;
 }
 .badge{
-  background-color: #cc2727;
+background-color: #cc2727;
 }
 .nav-header{
-  color: #cc2727 !important;
+color: #cc2727 !important;
 }
 .nav-icon{
-  color: #333;
+color: #333;
 }
 .nav-item
- p{
-   color: #333;
- }
+p{
+color: #333;
+}
 h1,h2,h3,h4,h5,h6{
-  color: #333;
+color: #333;
 }
 .small-box{
-  background-color: #fff !important;
+background-color: #fff !important;
 }
 .small-box h3{
 font-weight: 300;
@@ -46,59 +46,59 @@ font-weight: 300;
 color: #333;
 }
 .small-box .icon {
-  color: #cc2727;
-  z-index: 0;
+color: #cc2727;
+z-index: 0;
 }
 .small-box i {
-  font-weight: 300;
+font-weight: 300;
 }
 .small-box .fas{
-  color: #cc2727;
-  font-weight: bold;
+color: #cc2727;
+font-weight: bold;
 }
 .new-sec{
-  margin-top: 20px;
+margin-top: 20px;
 }
 .box-prog{
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 8px;
+background-color: #fff;
+padding: 10px;
+border-radius: 8px;
 }
 .box-prog .progress-group .Desktops{
-  background-color: #cc2727 !important;
+background-color: #cc2727 !important;
 }
 .box-prog .progress-group .iPhones{
-  background-color: rgb(6, 135, 209) !important;
+background-color: rgb(6, 135, 209) !important;
 }
 .box-prog .progress-group .Android{
-  background-color: rgba(35, 218, 193, 0.644) !important;
+background-color: rgba(35, 218, 193, 0.644) !important;
 }
 .box-prog .progress-group .Tablets{
-  background-color: rgb(91, 236, 164) !important;
+background-color: rgb(91, 236, 164) !important;
 }
 .box-prog .progress-group .Cables{
-  background-color: rgb(122, 61, 235) !important;
+background-color: rgb(122, 61, 235) !important;
 }
 .ads{
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 8px;
-  color: #fff ;
-  position: relative;
+margin-bottom: 20px;
+background-color: #fff;
+padding: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 8px;
+color: #fff ;
+position: relative;
 }
 .ads h6{
-  color: #333;
+color: #333;
 }
 .ads button{
-  margin-top: 5px;
-  background-color: #cc2727;
-  padding: 10px;
-  border-radius: 4px;
-  color: #fff;
-  border: none;
+margin-top: 5px;
+background-color: #cc2727;
+padding: 10px;
+border-radius: 4px;
+color: #fff;
+border: none;
 }
 .ads img {
 position: absolute;
@@ -109,52 +109,52 @@ bottom: 5%;
 }
 
 .top-users{
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 8px;
-  font-size: 14px;
-  text-transform: capitalize;
-  max-height: 420px;
-  overflow-y: scroll;
+margin-bottom: 20px;
+background-color: #fff;
+padding: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 8px;
+font-size: 14px;
+text-transform: capitalize;
+max-height: 420px;
+overflow-y: scroll;
 }
 .top-users::-webkit-scrollbar {
-  width: 12px;
+width: 12px;
 }
 
 .top-users::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(233, 233, 233, 0.3); 
-  border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(233, 233, 233, 0.3); 
+border-radius: 10px;
 }
 
 .top-users::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(240, 236, 236, 0.5); 
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(240, 236, 236, 0.5); 
 }
 
 
 .top-users ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 .top-users ol li {
-  display: inline-block;
-  margin: 10px;
-  margin-right: 30px;
-  font-size: 12px;
+display: inline-block;
+margin: 10px;
+margin-right: 30px;
+font-size: 12px;
 }
 .list i {
-  font-weight: 600;
+font-weight: 600;
 }
 .top-users ol li img {
-  border-radius: 50%;
-  width: 40px;
+border-radius: 50%;
+width: 40px;
 }
 button{
-  border: none;
+border: none;
 }
 .top-users ol li button{
 border-radius: 4px;
@@ -170,157 +170,157 @@ color: #fff;
 background-color: rgb(0, 167, 36);
 }
 .top-users ol li .btn-success{
-  color: #34c38f;
-  background-color: rgba(52,195,143,.18)
+color: #34c38f;
+background-color: rgba(52,195,143,.18)
 }
 .top-users ol li .btn-Pending{
 color: #fff;
 background-color: rgb(166, 168, 42);
 }
 .top-users .fas{
-  color: #333;
-  font-weight: 300;
+color: #333;
+font-weight: 300;
 }
 /* time line  */
 
 .box-timeline{
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 8px;
-  font-size: 14px;
-  text-transform: capitalize;
-  max-height: 420px;
-  overflow: hidden;
+margin-bottom: 20px;
+background-color: #fff;
+padding: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 8px;
+font-size: 14px;
+text-transform: capitalize;
+max-height: 420px;
+overflow: hidden;
 }
 .timeline{
-  max-height: 390px;
-  overflow: auto;  
+max-height: 390px;
+overflow: auto;  
 }
 .timeline::-webkit-scrollbar {
-  width: 12px;
+width: 12px;
 }
 
 .timeline::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(233, 233, 233, 0.3); 
-  border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(233, 233, 233, 0.3); 
+border-radius: 10px;
 }
 
 .timeline::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(240, 236, 236, 0.5); 
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(240, 236, 236, 0.5); 
 }
 
 .box-timeline .timeline-item{
-  border: none;
-  box-shadow: 0px !important;
-  outline: none;
+border: none;
+box-shadow: 0px !important;
+outline: none;
 }
 .timeline>div>.timeline-item {
-  box-shadow: 0 0 1px rgb(0 0 0 / 0%), 0 1px 3px rgb(0 0 0 / 0%);
-  border-radius: .25rem;
-  background-color: #fff;
-  color: #495057;
-  margin-left: 60px;
-  margin-right: 15px;
-  margin-top: 0;
-  padding: 0;
-  position: relative;
+box-shadow: 0 0 1px rgb(0 0 0 / 0%), 0 1px 3px rgb(0 0 0 / 0%);
+border-radius: .25rem;
+background-color: #fff;
+color: #495057;
+margin-left: 60px;
+margin-right: 15px;
+margin-top: 0;
+padding: 0;
+position: relative;
 }
 .box-timeline .timeline-header{
-  font-size: 12px !important;
+font-size: 12px !important;
 }
 
 .social-box{
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 8px;
-  font-size: 14px;
-  text-transform: capitalize;
-  min-height: 420px;
-  max-height: 398px;
+margin-bottom: 20px;
+background-color: #fff;
+padding: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 8px;
+font-size: 14px;
+text-transform: capitalize;
+min-height: 420px;
+max-height: 398px;
 }
 
 .social-box ol {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+padding: 0;
+margin: 0;
+list-style: none;
 }
 .social-box ol li {
-  padding: 0;
-  margin: 0;
+padding: 0;
+margin: 0;
 }
 .social-box {
-  text-align: center;
+text-align: center;
 }
 
 .our-social i {
-  font-size: 28px;
-  color: rgb(12, 35, 240);
+font-size: 28px;
+color: rgb(12, 35, 240);
 }
 .list-social-links{
-  margin: 0 auto !important;
+margin: 0 auto !important;
 }
 .list-social-links ol {
 padding: 0;
 margin: 0;
 }
 .list-social-links ol li  {
-  display: inline-block;
+display: inline-block;
 }
 .list-social-links ol li .item-social{
-  text-align: center;
-  margin: 5px;
-  margin-right: 5px;
+text-align: center;
+margin: 5px;
+margin-right: 5px;
 }
 .list-social-links ol li .item-social i {
-  font-size: 24px;
-  color: rgb(12, 35, 240);
+font-size: 24px;
+color: rgb(12, 35, 240);
 }
 
 .last-table{
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 8px;
-  font-size: 14px;
-  text-transform: capitalize;
+margin-bottom: 20px;
+background-color: #fff;
+padding: 15px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 8px;
+font-size: 14px;
+text-transform: capitalize;
 }
 
 .last-table .btn-details{
-  background-color: #cc2727;
-  color: #fff;
-  border-radius: 25px ;
-  padding: 8px;
-  font-size: 13px;
+background-color: #cc2727;
+color: #fff;
+border-radius: 25px ;
+padding: 8px;
+font-size: 13px;
 }
 .last-table .paid{
-  background-color: #0293d6;
-  color: #fff;
-  border-radius: 25px;
-  padding: 5px 15px 5px 15px;
-  font-size: 13px;
+background-color: #0293d6;
+color: #fff;
+border-radius: 25px;
+padding: 5px 15px 5px 15px;
+font-size: 13px;
 }
 .last-table .Chargeback{
-  background-color: #d044dd;
-  color: #fff;
-  border-radius: 25px;
-  padding: 5px 15px 5px 15px;
-  font-size: 13px;
+background-color: #d044dd;
+color: #fff;
+border-radius: 25px;
+padding: 5px 15px 5px 15px;
+font-size: 13px;
 }
 .last-table .Refund{
-  background-color: #d7e974ef;
-  color: #fff;
-  border-radius: 25px;
-  padding: 5px 15px 5px 15px;
-  font-size: 13px;
+background-color: #d7e974ef;
+color: #fff;
+border-radius: 25px;
+padding: 5px 15px 5px 15px;
+font-size: 13px;
 }
 
 .main-footer a {
@@ -329,7 +329,7 @@ color: #cc2727;
 
 /* style drop down  */
 .box-prog .dropdown{
-  text-transform: capitalize;
+text-transform: capitalize;
 }
 .box-prog .dropdown .btn-secondary{
 background-color: #fff;
@@ -338,16 +338,16 @@ border: none;
 font-size: 14px;
 }
 .box-prog .dropdown .btn-secondary:active{
-  background-color: #fff;
-  color: #333;
-  border: none;
-  }
-  .box-prog .dropdown .dropdown-menu a{
-    color: #333;
-    font-size: 12px;
-  }
+background-color: #fff;
+color: #333;
+border: none;
+}
+.box-prog .dropdown .dropdown-menu a{
+color: #333;
+font-size: 12px;
+}
 
-  /* social  */
+/* social  */
 .title-box{
 font-size: 16px;
 }
@@ -370,7 +370,7 @@ color: #333;
 font-size: 12px;
 }
 .social-box .dropdown .dropdown-menu{
-  left: -70px ;
+left: -70px ;
 }
 
 /* top users  */
@@ -394,7 +394,7 @@ color: #333;
 font-size: 12px;
 }
 .top-users .dropdown .dropdown-menu{
-  left: -70px !important;
+left: -70px !important;
 }
 
 /* recent */
@@ -421,10 +421,105 @@ left: -70px !important;
 z-index: 99;
 overflow: hidden;
 }
+/* users sessions  */
 
-  
+.sessions .dropdown{
+text-transform: capitalize;
+}
+.sessions .dropdown .btn-secondary{
+background-color: #fff;
+color: #333;
+border: none;
+font-size: 14px;
+}
+.sessions .dropdown .btn-secondary:active{
+background-color: #fff;
+color: #333;
+border: none;
+}
+.sessions .dropdown .dropdown-menu a{
+color: #333;
+font-size: 12px;
+}
+/* chart */
+.box-chart .dropdown{
+text-transform: capitalize;
+}
+.box-chart  .dropdown .btn-secondary{
+background-color: #fff;
+color: #333;
+border: none;
+font-size: 14px;
+}
+.box-chart .dropdown .btn-secondary:active{
+background-color: #fff;
+color: #333;
+border: none;
+}
+.box-chart .dropdown .dropdown-menu a{
+color: #333;
+font-size: 12px;
+}
+
 /* end sty;e drop dowm  */
 .float-left{
-  color: #333;
-  font-weight: 500;
+color: #333;
+font-weight: 500;
+}
+
+/* start style box chart  */
+
+.box-chart{
+margin-bottom: 20px;
+background-color: #fff;
+padding: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 8px;
+cursor: crosshair;
+}
+.box-chart .list-chart ol{
+list-style: none;
+margin: 0;
+padding: 0;
+margin-left: 20px;
+}
+.box-chart .list-chart ol li{
+
+display: inline-block;
+margin-right: 20px;
+color: #cc2727;
+font-weight: 400;
+font-size: 18px;
+}
+.box-chart .list-chart ol li span{
+
+color: #222;
+font-weight: 400;
+font-size: 14px;
+margin-left: 3px;
+}
+
+.box-chart .analytics-charts .fa-1{
+    color: rgb(91, 115, 232) ;
+    background-color: rgb(91, 115, 232);
+    border-radius: 50%;
+}
+.box-chart .analytics-charts .fa-2{
+    color: rgb(170, 171, 172) ;
+    background-color: rgb(170, 171, 172) ;
+    border-radius: 50%;
+}
+.box-chart .analytics-charts .fa-3{
+    color: rgb(241, 180, 76);
+    background-color: rgb(241, 180, 76);
+    border-radius: 50%;
+}
+.box-chart .analytics-charts i{
+    font-weight: 300;
+    margin-right: 5px;
+}
+.box-chart .analytics-charts span{
+
+    margin-right: 5px;
 }
