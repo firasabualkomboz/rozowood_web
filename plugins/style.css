@@ -12,9 +12,12 @@ nav{
 
 .sidebar{
   overflow: auto;
+  scrollbar-color:red
 }
+
+
 .main-sidebar{
-  background-color: #333;
+  background-color: #fff;
 }
 .img-logo{
   width: 80%;
