@@ -523,3 +523,9 @@ margin-left: 3px;
 
     margin-right: 5px;
 }
+.input-search{
+    border: none;
+}
+.input-search:focus{
+    outline: none;
+}
