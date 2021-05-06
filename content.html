@@ -52,6 +52,7 @@
 </ul>
 </nav>
 <!-- /.navbar -->
+
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
@@ -607,7 +608,6 @@ Maps
 
 
 
-
 <li class="nav-item">
 <a href="#" class="nav-link">
 <i class="nav-icon fas fa-level-up-alt"></i>
@@ -669,7 +669,6 @@ Bootstrap Basic
 </li>
 
 
-
 </ul>
 </nav>
 <!-- /.sidebar-menu -->
@@ -678,9 +677,24 @@ Bootstrap Basic
 </aside>
 
 <!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper" style="background-color: #fff;">
-
-
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+<div class="content-header mt-5">
+<div class="container-fluid">
+<div class="row mb-2">
+<div class="col-sm-6">
+<h1 class="m-0">Dashboard</h1>
+</div><!-- /.col -->
+<div class="col-sm-6">
+<ol class="breadcrumb float-sm-right">
+<li class="breadcrumb-item"><a >Rozo wood</a></li>
+<li class="breadcrumb-item active">Dashboard  </li>
+</ol>
+</div><!-- /.col -->
+</div><!-- /.row -->
+</div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
 
 <!-- Main content -->
 
@@ -688,15 +702,592 @@ Bootstrap Basic
 <div class="container-fluid">
 
 
+
 <!-- هنا سيتم كتابة الكود الخاص بك ليظهر في واجهة الموقع  -->
 
-<div class="content-new">
 
-add content 
+<!-- Small boxes (Stat box) -->
+<div class="row">
+<div class="col-lg-3 col-6">
+<!-- small box -->
+<div class="small-box bg-info">
+<div class="inner">
+<h3>$34,152</h3>
+<p>Total Revenue </p>
+<p><i style="color: rgba(4, 110, 0, 0.959);" class="fas ion ion-ios-arrow-thin-up"> 2.65% </i> since last week</p>
+</div>
+<div class="icon">
+<i style="color: rgba(4, 110, 0, 0.959);" class="ion ion-arrow-graph-up-right"></i>
+</div>
+</div>
+</div>
+<!-- ./col -->
+<div class="col-lg-3 col-6">
+<!-- small box -->
+<div class="small-box bg-success">
+<div class="inner">
+<h3>5,643</h3>
+<p>Orders</p>
+<p><i class="fas ion ion-ios-arrow-thin-down"> 0.82% </i> since last week</p>
+
+</div>
+<div class="icon">
+<i class="ion ion-stats-bars"></i>
+</div>
+</div>
+</div>
+<!-- ./col -->
+<div class="col-lg-3 col-6">
+<!-- small box -->
+<div class="small-box bg-warning">
+<div class="inner">
+<h3>45,254 </h3>
+<p>Customers</p>
+<p><i style="color: rgba(4, 110, 0, 0.959);"  class="fas ion ion-ios-arrow-thin-up"> 6.24% </i> since last week</p>
+</div>
+<div class="icon">
+<i style="color: rgba(4, 110, 0, 0.959);" class="ion ion-person-add"></i>
+</div>
+</div>
+</div>
+<!-- ./col -->
+<div class="col-lg-3 col-6">
+<!-- small box -->
+<div class="small-box bg-danger">
+<div class="inner">
+<h3>+ 12.58%  </h3>
+<p>Growth</p>
+<p><i class="ion fas ion-ios-arrow-thin-up"> 10.51% </i> since last week</p>
+
+</div>
+<div class="icon">
+<i class="ion ion-pie-graph"></i>
+</div>
+</div>
+</div>
+<!-- ./col -->
+</div>
+<!-- /.row -->
+<!-- Main row -->
+<div class="row">
+<!-- Left col -->
+<section class="col-lg-7 connectedSortable">
+
+<div class="box-chart">
+
+<div class="float-left">
+Sales Analytics
+</div>
+
+<div class="float-right">
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Sort By : Yearly 
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="#">Monthly</a>
+<a class="dropdown-item" href="#">yearly</a>
+<a class="dropdown-item" href="#">Weekly</a>
+</div>
+</div>
+</div>
+
+
+<div class="list-chart mt-5">
+<ol>
+<li>$2,371 <span>Income</span></li>
+<li>258 <span>Sales</span> </li>
+<li>3.6% <span>Conversation Ratio</span> </li>
+</ol>
+</div>
+
+<div class="drow-chart">
+
+<div class="card-body">
+<div class="chart">
+<canvas id="areaChart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
 </div>
 
 </div>
 
+<div class="text-center analytics-charts">
+<span><i class="fa fa-circle fa-1">  </i>Descktops</span>
+<span><i class="fa fa-circle fa-2">  </i>Laptops</span>
+<span><i class="fa fa-circle fa-3">  </i>Tablets</span>
+
+</div>
+</div>
+
+</section>
+
+
+<section class="col-lg-5 connectedSortable">
+
+<div class="ads">
+<h6>Enhance your Campaign for better outreach </h6>
+<button>Upgrade Account !</button>
+<img src="dist/img/ads.svg" alt="">
+</div>
+
+<div class="box-prog shadow">
+
+<div class="float-left">
+Top Selling Products
+</div>
+
+<div class="float-right">
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Sort By : Yearly 
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="#">Monthly</a>
+<a class="dropdown-item" href="#">yearly</a>
+<a class="dropdown-item" href="#">Weekly</a>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="mt-3">
+<div class="progress-group">
+Desktops
+<div class="progress progress-sm">
+<div class="progress-bar Desktops bg-warning" style="width: 40%"></div>
+</div>
+</div>
+
+<div class="progress-group">
+iPhones
+<div class="progress progress-sm">
+<div class="progress-bar iPhones bg-warning" style="width: 770%"></div>
+</div>
+</div>
+
+<div class="progress-group">
+Android
+<div class="progress progress-sm">
+<div class="progress-bar bg-warning Android"  style="width: 80%"></div>
+</div>
+</div>
+
+<div class="progress-group">
+Tablets
+<div class="progress progress-sm">
+<div class="progress-bar bg-warning Tablets" style="width: 60%"></div>
+</div>
+</div>
+<div class="progress-group">
+Cables
+<div class="progress progress-sm">
+<div class="progress-bar bg-warning Cables" style="width: 30%"></div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+</section>
+<!-- right col -->
+</div>
+<!-- /.row (main row) -->
+
+
+<!-- start new row -->
+
+<div class="row new-sec">
+
+<section class="col-lg-4 connectedSortable">
+
+
+<div class="top-users">
+
+
+<div class="float-left title-box">
+Top Users
+</div>
+
+<div class="float-right">
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+All Members
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="#">Locations</a>
+<a class="dropdown-item" href="#">Revenue</a>
+<a class="dropdown-item" href="#">Join Date</a>
+</div>
+</div>
+</div>
+
+
+<div class="list mt-5">
+
+
+
+<ol>
+<li><img src="dist/img/avatar.png" alt=""></li>
+<li>Marie Kim<br> <i class="fa fa-map-marker-alt"> </i> Omana </li>
+<li><button class="btn-success">Success</button></li>
+<li class="ml-1">$250.00</li>
+</ol>
+<li  class="dropdown-divider" ></li>
+<ol>
+<li><img src="dist/img/avatar.png" alt=""></li>
+<li>Marie Kim<br> <i class="fa fa-map-marker-alt"> </i> Omana </li>
+<li><button>cancel</button></li>
+<li class="ml-1">$250.00</li>
+
+</ol>
+<li  class="dropdown-divider" ></li>
+
+<ol>
+<li><img src="dist/img/avatar.png" alt=""></li>
+<li>Marie Kim<br> <i class="fa fa-map-marker-alt"> </i> Omana </li>
+<li><button class="btn-Pending">Pending</button></li>
+<li class="ml-1">$250.00</li>
+
+</ol>
+<li  class="dropdown-divider" ></li>
+
+<ol>
+<li><img src="dist/img/avatar.png" alt=""></li>
+<li>Marie Kim<br> <i class="fa fa-map-marker-alt"> </i> Omana </li>
+<li><button class="btn-active">Active </button></li>
+<li class="ml-1">$250.00</li>
+</ol>
+<li  class="dropdown-divider" ></li>
+
+
+<ol>
+<li><img src="dist/img/avatar.png" alt=""></li>
+<li>Marie Kim<br> <i class="fa fa-map-marker-alt"> </i> Omana </li>
+<li><button class="btn-Pending">Pending</button></li>
+<li class="ml-1">$250.00</li>
+
+</ol>
+
+
+
+
+</div>
+
+</div>
+</section>
+
+<section class="col-lg-4 connectedSortable">
+<div class="box-timeline">
+
+<div class="float-left title-box">
+Recent Activity
+</div>
+
+<div class="float-right">
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Recent
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="#">Recent</a>
+<a class="dropdown-item" href="#">By Users</a>
+</div>
+</div>
+</div>
+
+<div class="timeline mt-5">
+
+<!-- timeline item -->
+<div>
+<i class="fa fa-circle bg-purple"></i>
+<div class="timeline-item">
+<h3 class="timeline-header">18 Jul, 2020 07:56 am</h3>
+<div class="timeline-body">
+<p>Andrei Coman magna sed porta finibus, risus posted a new article: Forget UX Rowland</p>
+</div>
+</div>
+</div>
+<!-- END timeline item -->
+
+<!-- timeline item -->
+<div>
+<i class="fa fa-circle bg-purple"></i>
+<div class="timeline-item">
+<h3 class="timeline-header">18 Jul, 2020 07:56 am</h3>
+<div class="timeline-body">
+<p>Andrei Coman posted a new article: Designer Alex  </p>
+</div>
+</div>
+</div>
+<!-- END timeline item -->
+
+
+<!-- timeline item -->
+<div>
+<i class="fa fa-circle bg-purple"></i>
+<div class="timeline-item">
+<h3 class="timeline-header">18 Jul, 2020 07:56 am</h3>
+<div class="timeline-body">
+<p>Andrei Coman posted a new article: Designer Alex          </p>
+</div>
+</div>
+</div>
+<!-- END timeline item -->
+
+<!-- timeline item -->
+<div>
+<i class="fa fa-circle bg-purple"></i>
+<div class="timeline-item">
+<h3 class="timeline-header"><a href="#">18 Jul, 2020 07:56 am</a></h3>
+<div class="timeline-body">
+<p>Zack Wetass, Chris combined Commented UX Murphy</p>        </div>
+</div>
+</div>
+<!-- END timeline item -->
+
+<!-- timeline item -->
+</div>
+</div>
+</section>
+
+<section class="col-lg-4 connectedSortable">
+<div class="social-box">
+
+<div class="float-left title-box">
+Social Source
+</div>
+
+<div class="float-right">
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Monthly
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="#">Monthly</a>
+<a class="dropdown-item" href="#">yearly</a>
+<a class="dropdown-item" href="#">Weekly</a>
+</div>
+</div>
+</div>
+
+
+
+<div class="our-social text-cenetr mt-5">
+<i class="fab fa-facebook mb-3"></i>
+<h6>  <strong>Facebook</strong> - 125 sales</h6>
+<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p>
+<a style="color: #333;" href="">Learn more <i style="font-size: 12px;color: #333;" class="fa fa-arrow-right"></i></a>
+</div>
+
+<div class="list-social-links">
+<ol>
+<li>
+
+<div class="item-social  mt-5">
+<i class="fab fa-facebook"></i>
+<h5 class="mt-2">Facebook</h5>
+<p>125 sales</p>
+</div>
+
+</li>
+
+<li>
+
+<div class="item-social">
+<i style="color: rgb(116, 201, 250);" class="fab fa-twitter"></i>
+<h5 class="mt-2">Twitter</h5>
+<p>125 sales</p>
+</div>
+
+</li>
+
+<li>
+
+<div class="item-social">
+<i style="color: rgb(230, 103, 181);" class="fab fa-instagram"></i>
+<h5 class="mt-2">Instagram</h5>
+<p>125 sales</p>
+</div>
+
+</li>
+
+</ol>
+<a style="color: #cc2727;" href="">View All Sources  <i style="font-size: 12px;color: #cc2727;" class="fa fa-arrow-right"></i></a>
+</div>
+
+</div>
+</section>
+
+</div>
+
+<div class="row">
+<section class="col-lg-12 connectedSortable">
+
+<div class="last-table shadow table-responsive">
+<h6>Last Transaction </h6>
+
+<table class="table mt-3">
+<thead>
+<tr style="background-color: rgba(241, 241, 241, 0.541);">
+<th scope="col">
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+</label>
+</div>
+
+</th>
+<th scope="col">Order ID</th>
+<th scope="col">Billing Name</th>
+<th scope="col">Date</th>
+<th scope="col">Total</th>
+<th scope="col">Payment Status	</th>
+<th scope="col">Payment Method	</th>
+<th scope="col">View Details</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="col">
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+</label>
+</div>
+
+</th>
+
+<td>#MB2540</td>
+<td>	Neal Matthews</td>
+<td>07 Oct, 2019</td>
+<td>$400</td>
+<td><button class="paid">Paid</button></td>
+<td><i class="fab fa-cc-mastercard"></i> Mastercard</td>
+<td><Button class="btn-details">View Details</Button></td>
+</tr>
+<tr>
+<th scope="col">
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+</label>
+</div>
+
+</th>
+
+<td>#MB2540</td>
+<td>	Neal Matthews</td>
+<td>07 Oct, 2019</td>
+<td>$400</td>
+<td><button class="paid">Paid</button></td>
+<td><i class="fab fa-cc-visa"></i> visa</td>
+<td><Button class="btn-details">View Details</Button></td>
+
+</tr>
+<tr>
+
+<th scope="col">
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+</label>
+</div>
+
+</th>
+
+<td>#MB2540</td>
+<td>	Neal Matthews</td>
+<td>07 Oct, 2019</td>
+<td>$400</td>
+<td><button class="paid">Paid</button></td>
+<td><i class="fab fa-cc-mastercard"></i> Mastercard</td>
+<td><Button class="btn-details">View Details</Button></td>
+
+</tr>
+
+<tr>
+
+<th scope="col">
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+</label>
+</div>
+
+</th>
+
+<td>#MB2540</td>
+<td>	Neal Matthews</td>
+<td>07 Oct, 2019</td>
+<td>$400</td>
+<td><button class="Refund">Refund</button></td>
+<td><i class="fab fa-cc-mastercard"></i> Mastercard</td>
+<td><Button class="btn-details">View Details</Button></td>
+
+</tr>
+
+<tr>
+
+<th scope="col">
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+</label>
+</div>
+
+</th>
+
+<td>#MB2540</td>
+<td>	Neal Matthews</td>
+<td>07 Oct, 2019</td>
+<td>$400</td>
+<td><button class="Chargeback">Chargeback</button></td>
+<td><i class="fab fa-cc-visa"></i> visa</td>
+<td><Button class="btn-details">View Details</Button></td>
+
+
+</tr>
+
+<tr>
+
+<th scope="col">
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+</label>
+</div>
+
+</th>
+
+<td>#MB2540</td>
+<td>Jacob Hunter</td>
+<td>07 Oct, 2019</td>
+<td>$400</td>
+<td><button class="paid">Paid</button></td>
+<td><i class="fab fa-cc-mastercard"></i> Mastercard</td>
+<td><Button class="btn-details">View Details</Button></td>
+
+
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+</section>
+</div>
+
+</div><!-- /.container-fluid -->
 </section>
 
 <!-- /.content -->
