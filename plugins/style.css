@@ -534,3 +534,33 @@ margin-left: 3px;
 .content-new{
     margin-top: 8%;
 }
+
+.get-ol-right li {
+
+
+}
+.get-ol-right li p {
+
+position: absolute;
+right: 30%;    
+}
+.btn-rozo{
+    background-color: #cc2727;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+}
+.btn-rozo:hover{
+    background-color: #cc2727;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+.content-header {
+    margin-top: 4%;
+
+}
+
+/* 
+ */
+ 
